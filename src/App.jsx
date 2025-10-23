@@ -11,6 +11,7 @@ const App = () => {
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contacts'>Contacts</Link>
+          <button className='px-5 py-2 bg-red-500 text-white rounded-md'>Login</button>
         </nav>
       </header>
       <Routes>
