@@ -6,8 +6,8 @@ import Contacts from './pages/Contacts.jsx'
 const App = () => {
   return (
     <>
-      <header className='bg-red-500 text-white p-6'>
-        <nav className={`flex justify-center gap-4`}>
+      <header className='bg-blue-500 text-white p-6'>
+        <nav className={`flex justify-center gap-4 items-center`}>
           <Link to='/'>Home</Link>
           <Link to='/about'>About</Link>
           <Link to='/contacts'>Contacts</Link>
